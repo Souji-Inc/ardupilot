@@ -72,6 +72,7 @@ void SITL_State::_sitl_setup()
 #endif
 
     fprintf(stdout, "Starting SITL input\n");
+    fprintf(stdout, "==RL== This is Roy's change 1.\n" );
 
     // find the barometer object if it exists
     _sitl = AP::sitl();

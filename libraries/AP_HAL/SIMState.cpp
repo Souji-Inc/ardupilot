@@ -92,6 +92,7 @@ void SIMState::_sitl_setup(const char *home_str)
     _home_str = home_str;
 
     printf("Starting SITL input\n");
+    printf("==RL== This is Roy's change 2.\n" );
 }
 
 
