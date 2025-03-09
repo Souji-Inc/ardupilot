@@ -1429,6 +1429,7 @@ if cmd_opts.list_frame:
 atexit.register(kill_tasks)
 
 progress("Start")
+print("==RL== Roy's change");
 
 if cmd_opts.sim_vehicle_sh_compatible and cmd_opts.jobs is None:
     cmd_opts.jobs = 1
